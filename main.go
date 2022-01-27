@@ -1,1 +1,9 @@
-package github.com/barerenate/rivercrossing/state
+package main
+
+import (
+	"github.com/barerenate/rivercrossing/event"
+)
+
+func main() {
+	event.Start()
+}

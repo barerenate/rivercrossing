@@ -1,4 +1,4 @@
-package github.com/barerenate/rivercrossing
+package state
 
 func ViewState() string {
 	return "[kylling rev korn mann ---\\ \\__/ _________________/---]"

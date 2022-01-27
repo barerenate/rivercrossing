@@ -1,4 +1,4 @@
-package github.com/barerenate/rivercrossing
+package state
 
 import "testing"
 
