@@ -5,7 +5,7 @@ import (
 )
 
 func TestPutInBoat(t *testing.T) {
-	wanted := "[|rev|korn|  vvv\\_høne_pers_/ _________________/øøø]"
+	wanted := "[|rev|korn|  vvv\\_hne_pers_/ _________________/øøø]"
 	got := PutInBoat(høne)
 	if got != wanted {
 		t.Errorf("Feil, fikk %q, ønsket %q.", got, wanted)
